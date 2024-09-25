@@ -25,3 +25,36 @@ body {
     text-wrap: balance;
   }
 }
+.clipbg{
+  clip-path: polygon(0 0, 100% 0%, 94% 100%, 0% 100%);
+}
+.clipborder{
+  clip-path: polygon(7% 0, 100% 0%, 100% 100%, 0 100%);
+}
+.left-shape{
+    background-color: #172a39;
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) skew(-15deg);
+}
+.left-shape{
+    background-color: #f79125;
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) skew(-15deg);
+}
+.next-shape{
+    background-color: #f79125;
+    height: 13px;
+    width: 3px;
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%) skew(-15deg);
+}
