@@ -1,11 +1,11 @@
-import AboutSection from "./components/AboutSection";
-import TopBanner from "./components/TopBanner";
+"use client";
+
+import Container from "./components/Container";
 
 export default function Home() {
   return (
-    <div>
-     {/* <TopBanner /> */}
-     <AboutSection />
-    </div>
+    <>
+      <Container />
+    </>
   );
 }
