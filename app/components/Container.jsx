@@ -28,7 +28,7 @@ const Container = () => {
       <div className="sm:block hidden">
         <Topbar />
       </div>
-      <div className="bg-white w-full gap-4 flex items-center justify-between px-[40px] py-4 sticky top-0 z-50 border-b border-light-border">
+      <div className="bg-white w-full gap-4 flex items-center justify-between sm:px-[80px] px-[40px] py-4 sticky top-0 z-50 border-b border-light-border">
         <div>
           <Image
             src={"/images/famslogo.jpeg"}
