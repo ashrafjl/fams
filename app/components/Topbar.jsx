@@ -3,6 +3,7 @@ import Phone from "../icons/Phone";
 import Facebook from "../icons/Facebook";
 import Twitter from "../icons/Twitter";
 import Instagram from "../icons/Instagram";
+import Image from "next/image";
 
 const Topbar = () => {
   return (
@@ -15,7 +16,6 @@ const Topbar = () => {
         </div>
       </div>
       <div className="flex-1 relative">
-        {/* <div className="absolute clipborder w-[60%] bg-primary h-full border-l"></div> */}
         <div className="flex items-center self-end justify-end relative px-[40px] gap-3 w-[40%] ml-auto">
           <div className="w-[1px] h-[80px] bg-light-border absolute left-0 origin-bottom rotate-[28deg]"></div>
           <div className="flex items-center justify-between gap-2">
@@ -24,6 +24,9 @@ const Topbar = () => {
                 <Facebook classes={'size-5'}/>
                 <Twitter classes={'size-5'}/>
                 <Instagram classes={'size-5'}/>
+                <span className='flex items-center justify-center'>
+                    <Image src={'/images/whatsapp.svg'} width={16} height={16} alt='whatsapp' />
+                </span>
             </div>
           </div>
         </div>
