@@ -42,7 +42,7 @@ const Footer = () => {
           </p>
           <p className="mt-3 text-lg text-text-color max-w-[350px]">
             <strong className="text-primary">Email: </strong>
-            info@globalbrandings.com
+            infofamsevents.com
           </p>
           <div className="flex gap-6 mt-6">
             <Twitter classes={"size-5"} />
